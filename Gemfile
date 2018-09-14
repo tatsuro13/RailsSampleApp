@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # base
-gem 'rails', '~> 5.1.3'
+gem 'rails', '5.1.3'
 gem 'therubyracer', platforms: :ruby, github: 'cowboyd/therubyracer'
 
 # database
@@ -46,6 +46,7 @@ group :development do
   gem 'pry-rails'
   gem 'rubocop'
   gem 'annotate'
+  gem 'overcommit'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
