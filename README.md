@@ -1,4 +1,4 @@
-# RRailsSampleApp
+# RailsSampleApp
 
 これは、投稿サイトのサンプルアプリケーションです。
 
