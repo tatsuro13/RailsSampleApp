@@ -8,8 +8,10 @@ git_source(:github) do |repo_name|
 end
 
 # base
+gem 'libv8', '~> 5.9'
+gem 'mini_racer', '0.1.14'
 gem 'rails', '5.1.3'
-gem 'therubyracer', platforms: :ruby, github: 'cowboyd/therubyracer'
+# gem 'therubyracer', platforms: :ruby, github: 'cowboyd/therubyracer'
 
 # database
 gem 'mysql2', '>= 0.3.18', '< 0.5'
