@@ -21,6 +21,7 @@ gem 'puma', '~> 3.7'
 
 # view
 gem 'bootstrap', '~> 4.0.0.beta'
+gem 'devise'
 gem 'jquery-rails'
 gem 'popper_js', '~> 1.11.1'
 gem 'sass-rails', '~> 5.0'
